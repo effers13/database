@@ -1,1 +1,1 @@
-Esta carpeta se utilizar· para agregar todos los archivos de an·lisis
+Esta carpeta se utilizar√° para agregar todos los archivos de an√°lisis
