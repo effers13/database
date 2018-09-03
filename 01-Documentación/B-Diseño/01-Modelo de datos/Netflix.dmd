@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Netflix" id="E101371F-6D3C-6B75-F96C-CF82F282B44F" version="3.5">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 17:00:40 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E101371F-6D3C-6B75-F96C-CF82F282B44F</designId>
+</OSDM_Design>

@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FB1AA28-79A7-7E3B-B657-889F899749E2" schemaObject="98C022F5-B012-3759-3D04-00DAD335E3BA" name="CAT_CATEGORY">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 21:38:15 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<abbreviation>CATEGORY</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CATEGORY" id="F88A877F-58F7-851C-C8A8-ACA4E746F3C3">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 21:38:15 UTC</createdTime>
+<commentInRDBMS>Llave primaria de la categoría</commentInRDBMS>
+<ownerDesignName>Netflix</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementMaxValue>99999</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORY_NAME" id="36787D94-B1FE-0FA2-0164-63631DAFCB0D">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 21:38:15 UTC</createdTime>
+<commentInRDBMS>Nombre de la categoría</commentInRDBMS>
+<ownerDesignName>Netflix</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<abbreviation>USERNAME</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="D0B49151-F28B-6DA7-6E8F-E904C54C4754">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 21:38:15 UTC</createdTime>
+<commentInRDBMS>Descripciíon de la categoría</commentInRDBMS>
+<ownerDesignName>Netflix</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVE" id="D13DDB5B-A402-EAB5-F9C6-047A71994449">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 21:38:15 UTC</createdTime>
+<commentInRDBMS>Campo de control, indica si el registro se encuentra activo.</commentInRDBMS>
+<ownerDesignName>Netflix</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_VIDEO_TYPES_ACTIVE</notNullConstraintName>
+</Column>
+<Column name="LOAD_USER" id="C6B23598-BC22-0106-0818-2F68D3986842">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 21:38:15 UTC</createdTime>
+<commentInRDBMS>Campo de control, indica el nombre del usuario que realizó el registro.</commentInRDBMS>
+<ownerDesignName>Netflix</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOAD_DATE" id="6FF14B41-C8E2-FCD7-E941-D3287F0A1B29">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 21:38:15 UTC</createdTime>
+<commentInRDBMS>Campo de control, indica la fecha  que se realizó el registro.</commentInRDBMS>
+<ownerDesignName>Netflix</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_USER" id="014E5743-BC4B-A3BA-FF64-F5751A9FEB1A">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 21:38:15 UTC</createdTime>
+<commentInRDBMS>Campo de control, indica el nombre del usuario que realizó la modificación.</commentInRDBMS>
+<ownerDesignName>Netflix</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATE" id="298E784A-397D-8334-3A79-8C7EB6EE2377">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 21:38:15 UTC</createdTime>
+<commentInRDBMS>Campo de control, indica la fecha  que se realizó la modificación del  registro.</commentInRDBMS>
+<ownerDesignName>Netflix</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F10C25A-AA98-7175-99FD-8941A4378E21" name="CAT_CATEGORY_PK">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 21:38:15 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F88A877F-58F7-851C-C8A8-ACA4E746F3C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="209657E9-ADDD-3D3B-B665-F5CC77131C8C" name="CATCATEGORY_NAME_UN">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 21:38:15 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36787D94-B1FE-0FA2-0164-63631DAFCB0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6861816-CAE0-4078-2777-9CB36944BDF1" name="CAT_CATEGORY_NAME_IDX">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 21:38:15 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36787D94-B1FE-0FA2-0164-63631DAFCB0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,1 +1,1 @@
-Esta carpeta se utilizar· para agregar todos los archivos de base de datos (Scripts)
+Esta carpeta se utilizar√° para agregar todos los archivos de base de datos (Scripts)

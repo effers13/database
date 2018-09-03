@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="73BC646D-5697-218C-81AB-A1DE162F1DF4" containerWithKeyObject="250758E1-9552-0DD4-BA44-421797ACD6B0" localFKIndex="3F2A2989-30B4-9D4B-A3DF-00D7F7431F17" name="TRA_USER_SEEN_CAT_VIDEO_FK">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-03 00:02:25 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>749D1D37-FF7D-B440-5E11-77CBB5A6A03A</referredTableID>
+<keyObject>77DB822A-16D6-5CEF-85DE-11EE51BF9004</keyObject>
+<referredKeyID>77DB822A-16D6-5CEF-85DE-11EE51BF9004</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

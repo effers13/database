@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E3417C21-71F5-0BE0-1805-7248C359D294" name="CAT USER TYPE">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 19:03:38 UTC</createdTime>
+<generatorID>9DDD1F46-DDD3-7592-DF2C-6C9C4312D1B1</generatorID>
+<ownerDesignName>Netflix</ownerDesignName>
+<engineerTo>
+<item key="BB7439B4-66FD-AF58-5684-DB9D689994F4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>USER_TYPE</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID USER TYPE" id="C5C393AE-8FEF-D0C3-559B-B460376BEE79">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 19:03:38 UTC</createdTime>
+<commentInRDBMS>Este valor es la llave primaria, es autoincremental.</commentInRDBMS>
+<generatorID>4B543330-CB73-8A82-CDE9-4517F61427D3</generatorID>
+<ownerDesignName>Netflix</ownerDesignName>
+<engineerTo>
+<item key="BB7439B4-66FD-AF58-5684-DB9D689994F4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="049B476B-CEC1-1C8F-0588-5EE1ED333458">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 19:03:38 UTC</createdTime>
+<commentInRDBMS>Nombre del tipo de usuario</commentInRDBMS>
+<generatorID>2F8774F9-EB51-A739-C5BB-85E196410FEE</generatorID>
+<ownerDesignName>Netflix</ownerDesignName>
+<engineerTo>
+<item key="BB7439B4-66FD-AF58-5684-DB9D689994F4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOAD DATE" id="9A8104D5-28CA-4A15-DFEF-24F34811456A">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 19:03:38 UTC</createdTime>
+<generatorID>EBEF7A47-D993-3E3D-7BC8-6451A8156D57</generatorID>
+<ownerDesignName>Netflix</ownerDesignName>
+<engineerTo>
+<item key="BB7439B4-66FD-AF58-5684-DB9D689994F4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7CC3194E-E259-2498-0A17-04F1FE4107BC" name="CAT USER TYPE PK">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 19:03:38 UTC</createdTime>
+<generatorID>6ABF6FEE-E36F-ECA7-7F3B-0F9D8AC2F6D2</generatorID>
+<ownerDesignName>Netflix</ownerDesignName>
+<engineerTo>
+<item key="BB7439B4-66FD-AF58-5684-DB9D689994F4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C5C393AE-8FEF-D0C3-559B-B460376BEE79</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

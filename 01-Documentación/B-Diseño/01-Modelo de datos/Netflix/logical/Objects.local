@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="8C0EBDDF-D287-3055-288C-5669F9F8BC44" name="CAT USER" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="C83DEF36-7E9E-B0DE-74DB-80F69A35EA8D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="E3417C21-71F5-0BE0-1805-7248C359D294" name="CAT USER TYPE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="C83DEF36-7E9E-B0DE-74DB-80F69A35EA8D" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

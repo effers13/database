@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07CC7CEA-9DB9-87AC-4E0F-D7BD2C322381" schemaObject="98C022F5-B012-3759-3D04-00DAD335E3BA" name="REL_VIDEO_LANGUAGE">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 22:34:09 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<abbreviation>VIDEO_CATEGORY</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VIDEO_LANGUAGE" id="D7EE9638-4F55-56DF-2833-7E69718F4888">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 22:34:09 UTC</createdTime>
+<commentInRDBMS>Llave primaria de la relación video/lenguaje</commentInRDBMS>
+<ownerDesignName>Netflix</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementMaxValue>99999</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_VIDEO_CATEGORY_ID_VIDEO_CATEGORY</notNullConstraintName>
+</Column>
+<Column name="ID_VIDEO" id="6EC22B05-CD73-5B10-6DEB-DA51B31BE846">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 22:34:09 UTC</createdTime>
+<commentInRDBMS>Llave primaria del vídeo</commentInRDBMS>
+<ownerDesignName>Netflix</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementMaxValue>99999</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_VIDEO_CATEGORY_ID_VIDEO</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="7DA07563-DB44-6A4C-4D38-5732F65228D2" referredColumn="4DCA2EB7-A210-9564-7D9F-B0B2E5E14566"/>
+</associations>
+</Column>
+<Column name="ID_LANGUAGE" id="FDBA973D-8EE0-F84E-B84E-BA3A703CE65E">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 22:34:09 UTC</createdTime>
+<commentInRDBMS>Llave primaria del lenguaje</commentInRDBMS>
+<ownerDesignName>Netflix</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementMaxValue>99999</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_VIDEO_CATEGORY_ID_CATEGORY</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="99056F64-811E-B723-92A5-2C9A79B87092" referredColumn="BC8AD384-3EB1-14B0-D7C8-8F8DB938B920"/>
+</associations>
+</Column>
+<Column name="ACTIVE" id="63EEB8C3-D414-9D42-8D65-0CD6ECB8ED70">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 22:34:09 UTC</createdTime>
+<commentInRDBMS>Campo de control, indica si el registro se encuentra activo.</commentInRDBMS>
+<ownerDesignName>Netflix</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_VIDEO_CATEGORY_ACTIVE</notNullConstraintName>
+</Column>
+<Column name="LOAD_USER" id="76C50156-85B2-1F65-5D88-BF87C52A4506">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 22:34:09 UTC</createdTime>
+<commentInRDBMS>Campo de control, indica el nombre del usuario que realizó el registro.</commentInRDBMS>
+<ownerDesignName>Netflix</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOAD_DATE" id="6BBD9DC3-B842-06CC-0227-DB5365CE5FF9">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 22:34:09 UTC</createdTime>
+<commentInRDBMS>Campo de control, indica la fecha  que se realizó el registro.</commentInRDBMS>
+<ownerDesignName>Netflix</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_USER" id="C13CF747-6F6C-FC76-2800-64ECC935665A">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 22:34:09 UTC</createdTime>
+<commentInRDBMS>Campo de control, indica el nombre del usuario que realizó la modificación.</commentInRDBMS>
+<ownerDesignName>Netflix</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATE" id="10D09A05-8D53-F0CB-DA30-A9CAF8F4E44E">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 22:34:09 UTC</createdTime>
+<commentInRDBMS>Campo de control, indica la fecha  que se realizó la modificación del  registro.</commentInRDBMS>
+<ownerDesignName>Netflix</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="353D310F-A530-5E42-4443-322180C7B5F8" name="REL_VIDEO_LANGUAGE_PK">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 22:34:09 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7EE9638-4F55-56DF-2833-7E69718F4888"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="045D1DB0-FB92-233A-173E-A129DAB5E23A" name="REL_VIDEO_LANGUAGE_IDX">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 22:35:54 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EC22B05-CD73-5B10-6DEB-DA51B31BE846"/>
+<colUsage columnID="FDBA973D-8EE0-F84E-B84E-BA3A703CE65E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93EE6DBB-583D-ABA9-7760-E792A85BB70C" name="REL_VIDEO_LANGUAGE_CAT_VIDEO_FK">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 22:34:09 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EC22B05-CD73-5B10-6DEB-DA51B31BE846"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCD190F7-FDAD-6A65-F0B4-EC9CDA770926" name="REL_VIDEO_LANGUAGE_CAT_LANGUAGES_FK">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 22:37:56 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDBA973D-8EE0-F84E-B84E-BA3A703CE65E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

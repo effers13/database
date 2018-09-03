@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="CAT_USER_TYPES" directorySegmentName="seg_0" id="87CDB6EE-39E9-E753-1D88-EEA7D33A6280">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 20:37:10 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+<schemaObject>98C022F5-B012-3759-3D04-00DAD335E3BA</schemaObject>
+<database>DB_NULLELEMENT</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="USER_TYPE_NAME" id="5A713436-B528-DC88-38EB-BCCDB9221722">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 20:37:10 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="ID_USER_TYPES" id="795E875A-C49F-7661-1CD1-E8104A34DB94">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 20:37:10 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+<asIdentity>true</asIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="ACTIVE" id="79938B1F-986A-6273-5F43-9C3DD2B07556">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 20:37:10 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="LOAD_USER" id="94792420-5C11-B283-05C8-509AC6554E39">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 20:37:10 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="UPDATE_USER" id="CB4DAAAE-8B18-B990-38E1-A46345301F69">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 20:37:10 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="DESCRIPTION" id="E6A1D17B-387D-6BB9-4260-CB458582BEAD">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 20:37:10 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="LOAD_DATE" id="F7BA6200-E70E-3861-6593-86E0FC30BD2C">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 20:37:10 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="UPDATE_DATE" id="F93F6953-2FCC-CC3B-9199-7BFD610284A2">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 20:37:10 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.IndexProxySqlServerv2k12" name="CAT_USER_TYPES_IDX" id="B597BA73-F233-42A6-FCDE-4EC8E0D1F3BC">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 20:37:10 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+<recomputeStatistics>ON</recomputeStatistics>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="CAT_USERSv1_PK" id="12CB11BE-7887-AED4-A572-CCBBF22D2C32">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 20:37:10 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.UniqueProxySqlServerv2k5" name="CAT_USER_TYPE_UN" id="7C0A3A68-0C32-C53A-AA00-20A30CA91232">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 20:37:10 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+</UniqueKey>
+</uniqueKeys>
+</TableProxySqlServerv2k5>

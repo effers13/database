@@ -1,1 +1,1 @@
-Esta carpeta se utilizar· para agregar todos los archivos de diseÒo
+Esta carpeta se utilizar√° para agregar todos los archivos de dise√±o

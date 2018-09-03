@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaSqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.SchemaSqlServerv2k5" name="dbo" directorySegmentName="seg_0" id="F6CB5F21-AAF9-1243-1A1F-F5ABD473E8B2">
+<createdBy>ECHAVEZ</createdBy>
+<createdTime>2018-09-02 19:24:03 UTC</createdTime>
+<ownerDesignName>Netflix</ownerDesignName>
+<database>D9FE04B4-D266-A386-E102-E994183F9DF9</database>
+</SchemaSqlServerv2k5>
