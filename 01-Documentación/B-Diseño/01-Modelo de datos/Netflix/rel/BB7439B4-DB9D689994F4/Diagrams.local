@@ -2,5 +2,6 @@
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
    <object objectType="main_view" objectID="4479EC80-FF9B-C90C-E08D-F328702F22FC" name="Netflix" visible="true"/>
    <object objectType="sub_view" objectID="5342B54D-60CB-4776-D8AE-535D2D8E155F" name="Netflix - Vista por proceso de usuario" visible="false"/>
+   <object objectType="sub_view" objectID="89130774-B15E-B3FB-E74A-B02C1DEC38DF" name="Netflix - Vista por proceso de usuario/película" visible="true"/>
    <object objectType="sub_view" objectID="BB5F3D51-D95E-7AFF-D3D3-F2F413FEB604" name="Netflix - Vista por proceso de video" visible="false"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>
